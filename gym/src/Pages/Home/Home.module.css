@@ -1,0 +1,22 @@
+
+.homeContainer{
+    position: relative;
+}
+
+
+
+.imageLink{
+    width: 100%;
+}
+
+.contentContainer{
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    color: white;
+
+}
+
+.contentContainer span{
+    color: red;
+}
