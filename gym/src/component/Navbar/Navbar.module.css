@@ -1,21 +1,31 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     /* padding: 20px; */
     margin: 0;
     align-items: center;
-    border: 1px solid red;
-    background-color: rgb(151, 234, 151);
+    background-color: rgb(9, 9, 9);
     color: white;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 800;
+     /* position: sticky; */
+    /* top: 0;  */
+    align-items: center;
+    
 
-}   
+}
 
-.logo{
+.logo {
     margin-left: 20px;
 }
 
+.logImage {
+    height: 60px;
+    width: 80px;
+}
 
-.navlist{
+.navlist {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -24,6 +34,6 @@
 }
 
 
-.loginBtn{
+.loginBtn {
     margin-right: 20px;
 }

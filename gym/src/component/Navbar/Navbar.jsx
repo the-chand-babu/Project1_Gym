@@ -1,26 +1,31 @@
 import style from './Navbar.module.css'
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
+  const Navigate = useNavigate()
   return (
     <nav className={style.navbar}>
-        <div  className={style.logo}> Logo</div>
+      <div className={style.logo}>
 
-        <ul className={style.navlist}>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Classes</li>
-            <li>Blogs</li>
-            
+        <img className={style.logImage} src="./images/logo.png" alt="logo" />
 
-        </ul>
+      </div>
 
-        <button className={style.loginBtn}>Join US</button>
+      <ul className={style.navlist}>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Classes</li>
+        <li>Blogs</li>
 
-        {/* <Link>Join Us</Link> */}
 
-        
+      </ul>
+
+      <button onClick={() => { Navigate('/login') }} className={style.loginBtn}>Join US</button>
+
+      {/* <Link>Join Us</Link> */}
+
+
 
     </nav>
   )

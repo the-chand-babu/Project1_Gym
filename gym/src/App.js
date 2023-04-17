@@ -8,16 +8,24 @@ import PricingSection from "./Pages/PricingSection/PricingSection";
 import Footer from "./Pages/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
 
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
+     
+     <>
+      
+      
+      
+
+     
+     <Navbar />
       <Home />
-      {/* <About /> */}
-      {/* <TrainingProgram /> */}
-      {/* <TrainerSection /> */}
-      {/* <PricingSection /> */}
-      {/* <Footer /> */}
+      <About />
+
+      </>
+      
+     
     </div>
   );
 }
