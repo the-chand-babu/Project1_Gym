@@ -74,7 +74,7 @@ const Register = () => {
     }
 
     const Validation = (values) => {
-        //hhh
+        //hhhjjj
         const errors = {};
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 
