@@ -1,12 +1,6 @@
 
-/* .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  } */
  
-
+  .login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,72 +9,24 @@
     border: 3px solid #461616;
     border-radius: 10px;
     background-color: black;
-<<<<<<< HEAD
-    color: white;
-=======
-
->>>>>>> e2075a58c46c65fe89d9c3ea9a59ff0e670831bb
-  } 
- 
-  /* label {
-    font-size: 18px;
-    margin-right: 10px;
-  } */
- 
-   /* input {
-    font-size: 16px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }  */
-  
-  /* button[type="submit"] {
-    background-color: navy;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  } */
- 
-  /* button[type="submit"]:hover {
-    background-color: #003366;
-  } */
- 
-  /* h3 {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-  } */
- 
-  /* a {
-    font-weight: bold;
-    color: navy;
-    text-decoration: none;
   }
- 
-  a:hover {
-    text-decoration: underline;
-  } */
+
   
     .loginContainer {
-    /* border: 1px solid black;  */
+
     padding: 20px; 
-    /* border: 1px solid black;  */
+
     
     display: flex;
-    /* flex-direction: column; */
+ 
     align-items: center;
-    /* margin-top: 20px; */
     
-    /* border: 3px solid #361c1c; */
+
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 50px; */
+   
 }   
 
 .loginButton {

@@ -7,21 +7,15 @@ import About from "./Pages/About/About";
 // import PricingSection from "./Pages/PricingSection/PricingSection";
 // import Footer from "./Pages/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
-
+import TrainingProgram from "./Pages/Training Program/TrainingProgram";
 
 function App() {
   return (
     <div className="App">
-     
-     <>
-     
-     <Navbar />
-      <Home />
-      <About />
-
-      </>
-      
-     
+        <Navbar />
+        <Home />
+        <About />
+        <TrainingProgram />
     </div>
   );
 }
