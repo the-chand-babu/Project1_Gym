@@ -29,17 +29,18 @@
   }
  
   button[type="submit"] {
-    background-color: navy;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 20px;
+    margin-top: 20px;
+    height: 45px;
+    width: 100px;
+    background-color: red;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
  
   button[type="submit"]:hover {
-    background-color: #003366;
+    background-color: #bf0000;
   }
  
   h3 {
