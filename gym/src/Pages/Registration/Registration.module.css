@@ -4,31 +4,31 @@
     align-items: center;
     margin-top: 50px;
   } */
- 
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
- 
-  /* label {
+
+ form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+
+ /* label {
     font-size: 18px;
     margin-right: 10px;
   } */
- 
-  input {
-    font-size: 16px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #131111;
-  }
- 
-  /* button[type="submit"] {
+
+ input {
+   font-size: 16px;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border: 1px solid #131111;
+ }
+
+ /* button[type="submit"] {
     background-color: navy;
     color: #fff;
     font-size: 18px;
@@ -37,51 +37,60 @@
     border-radius: 5px;
     cursor: pointer;
   } */
- 
-  /* button[type="submit"]:hover {
+
+ /* button[type="submit"]:hover {
     background-color: #003366;
   } */
- 
-  h3 {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-  } 
- 
-  /* a {
+
+ h3 {
+   margin-top: 20px;
+   font-size: 18px;
+   text-align: center;
+ }
+
+ /* a {
     font-weight: bold;
     color: navy;
     text-decoration: none;
   } */
- 
-  /* a:hover {
+
+ /* a:hover {
     text-decoration: underline;
   } */
-  
-  .form {
-    border: 3px solid rgb(72, 34, 34); /* Add border style */
-    padding: 20px; /* Add padding for spacing */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    border-radius: 10px;
-    
-    
-    
-}
-button[type="submit"]:hover {
-    background-color:red;
-    text-decoration: underline;
-    width: 100;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.Register{
-  background-color: red;
-  color: aliceblue;
-  text-align: center;
-}
+
+ .form {
+   border: 3px solid rgb(72, 34, 34);
+   /* Add border style */
+   padding: 20px;
+   /* Add padding for spacing */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+   border-radius: 10px;
+
+
+
+ }
+
+ button[type="submit"]:hover {
+   background-color: red;
+   text-decoration: underline;
+   width: 100;
+   font-size: 18px;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .Register {
+   background-color: red;
+   color: aliceblue;
+   text-align: center;
+ }
+
+ .errorMessage {
+   color: white;
+   
+ }
