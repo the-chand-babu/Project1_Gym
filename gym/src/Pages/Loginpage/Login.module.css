@@ -1,3 +1,4 @@
+
 /* .login-container {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     margin-top: 50px;
   } */
  
-   form {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +15,11 @@
     border: 3px solid #461616;
     border-radius: 10px;
     background-color: black;
+<<<<<<< HEAD
     color: white;
+=======
+
+>>>>>>> e2075a58c46c65fe89d9c3ea9a59ff0e670831bb
   } 
  
   /* label {
@@ -82,3 +87,4 @@
     background-color: red; /* Set button color to red */
     color: white; /* Set text color to white */
 }
+
