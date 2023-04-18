@@ -13,7 +13,6 @@
     gap: 20px;
     
    
-    
 }
 
 .ContainerHeading{
@@ -23,11 +22,11 @@
 .ContainerHeading>button{
   margin-left: 39px;
 }
-.Video{
+/* .Video{
     border: 6px solid red;
 
    
-}
+} */
 .Main h1{
     color: red;
     font-size:50px;
