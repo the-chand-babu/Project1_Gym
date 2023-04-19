@@ -35,6 +35,7 @@ export default function TrainerSection() {
   ];
 
   return (
+
     <div>
       <h1 className={styles.cardsHeading}>Meet our Team</h1>
       <div className={styles.mainTrainer}>
@@ -47,6 +48,12 @@ export default function TrainerSection() {
         ))}
       </div>
       <button className={styles.wholeTeamBtn}>See Whole Team</button>
+
+    <div id='training'>
+       
+       
+       
+
     </div>
   );
 }

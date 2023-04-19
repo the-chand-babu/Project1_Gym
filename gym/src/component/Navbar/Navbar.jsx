@@ -1,32 +1,63 @@
-import style from './Navbar.module.css'
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import style from "./Navbar.module.css";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { FaWindowClose } from "react-icons/fa";
+import { BiMenu } from "react-icons/bi";
 
 export default function Navbar() {
-  const Navigate = useNavigate()
+  const Navigate = useNavigate();
+  const [ismenuchange, setIsmenuchange] = useState(false);
+
+  const handelMenubar = () => {
+    setIsmenuchange(!ismenuchange);
+    console.log(ismenuchange);
+  };
   return (
-    <nav className={style.navbar}>
-      <div className={style.logo}>
+    <div className={`${ismenuchange ? style.active : "no"}`}>
+      <nav className={style.navbar}>
+        <div className={style.logo}>
+          <a href="#home">
+            <img
+              className={style.logImage}
+              src="./images/logo.png"
+              alt="logo"
+            />
+          </a>
+        </div>
 
-        <img className={style.logImage} src="./images/logo.png" alt="logo" />
+        <ul className={style.navlist}>
+          <li>
+            <a href="#about">About</a>
+          </li>
 
-      </div>
+          <li>
+            <a href="#Program">Program</a>
+          </li>
+          <li>
+            <a href="#training">Training</a>
+          </li>
+          <li>
+            <a href="#Pricing">Pricing</a>
+          </li>
+        </ul>
 
-      <ul className={style.navlist}>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Classes</li>
-        <li>Blogs</li>
-
-
-      </ul>
-
-      <button onClick={() => { Navigate('/login') }} className={style.loginBtn}>Join US</button>
-
-      {/* <Link>Join Us</Link> */}
-
-
-
-    </nav>
-  )
+        <button
+          onClick={() => {
+            Navigate("/login");
+          }}
+          className={style.loginBtn}
+        >
+          Join US
+        </button>
+        <div className={style.manubar}>
+          <span className={style.menu} onClick={handelMenubar}>
+            <BiMenu />
+          </span>
+          <span className={style.closeIcon} onClick={handelMenubar}>
+            <FaWindowClose />
+          </span>
+        </div>
+      </nav>
+    </div>
+  );
 }
