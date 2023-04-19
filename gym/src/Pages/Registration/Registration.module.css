@@ -11,10 +11,6 @@
    border-radius: 5px;
  }
 
- /* label {
-    font-size: 18px;
-    margin-right: 10px;
-  } */
 
  input {
    font-size: 16px;
@@ -32,12 +28,12 @@
    text-align: center;
  }
 
- 
+
  .form {
    border: 3px solid rgb(72, 34, 34);
   
    padding: 20px;
-  
+
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -66,6 +62,7 @@
  }
 
  .errorMessage {
+
    color: black;
    
  }

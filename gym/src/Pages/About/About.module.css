@@ -1,4 +1,17 @@
 
+.Main {
+  /* height: 100vh; */
+  background-color: rgb(255, 255, 255);
+}
+
+.AboutUs {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+
 .Main{
     /* height: 100vh; */
     background-color: rgb(255, 255, 255);
@@ -6,49 +19,102 @@
 
 .AboutUs {
   
-  padding: 50px ;
+  padding: 3rem ;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1rrem;
     
-   
+
 }
 
-.ContainerHeading{
-
+.ContainerHeading {
   text-align: start;
 }
-.ContainerHeading>button{
+
+.ContainerHeading > button {
   margin-left: 39px;
+
+.ContainerHeading>button{
+  margin-left: 2.5rem;
+
 }
-/* .Video{
-    border: 6px solid red;
+
 
    
 } */
+.Main h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: 700px;
+
+  text-align: start;
+  margin-left: 45px;
+
 .Main h1{
     color: red;
-    font-size:50px;
-    font-weight: 700px;
+    font-size:3.5rem;
+    font-weight: 50rem;
   
     text-align: start;
-    margin-left: 45px;
+    margin-left: 3rem;
    
+
 }
 .Video1 {
-    margin-right: 100px;
-} 
+  margin-right: 100px;
+}
 .Video2 {
-    margin-left: 100px;
+
+  margin-left: 100px;
+}
+
+.button {
+  margin-top: 20px;
+  height: 45px;
+  width: 100px;
+  background-color: red;
+  padding: 7px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.listContainer {
+  list-style: disc;
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+p {
+  font-size: 15px;
+  margin-left: 40px;
+}
+.strong {
+  font-size: 26px;
+}
+
+.listContainer li::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 35px;
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: -45px;
+}
+
+    margin-left: 7rem;
 } 
 
 .button {
-    margin-top: 20px;
-    height: 45px;
-    width: 100px;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 5.7rem;
     background-color: red;
-    padding: 7px;
+    padding: 0.5rem;
     color: white;
     border-radius: 10px;
     border: none;
@@ -56,34 +122,47 @@
 
 .listContainer {
     list-style:disc;
-    font-size: 15px;
+    font-size: 1rem;
     list-style: none;
     display: flex;
     flex-direction: column;
     text-align: start;
 
-    
-  }
-  p{
-    font-size: 15px;
-    margin-left: 40px;
-  }
-  .strong {
-    font-size: 26px;
-    
+
+
+@media all and (min-width:200px) and (max-width:600px){
+  .AboutUs {
+    display:block;
   }
 
+
+  .Video1 {
+    margin:20px
+  }
+  .Video2 {
+    margin:20px;
+
+  p{
+    font-size: 1rem;
+    margin-left: 2.7rem;
+  }
+  .strong {
+    font-size: 1.7rem;
+    
+
+  }
   
+
+
 
   .listContainer li::before {
     
     content: "•"; color: red;
     display: inline-block; width: 35px;
     font-weight: 900;
-    font-size: 60px;
-    margin-top: -45px;
+    font-size: 3.5rem;
+    margin-top: -10rem;
    
 
     
-     
 }

@@ -52,10 +52,16 @@ const Login = () => {
     setFormValues(obj);
   };
 
+
+        <div className={styles.loginContainer}> {/* Apply CSS module class to container */}
+            <h1>Login</h1>
+            
+
   const validate = (validate) => {
     const error = {};
     const email = validate.email;
     const password = validate.password;
+
 
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!email) {
@@ -63,6 +69,18 @@ const Login = () => {
     } else if (!regex.test(email)) {
       error.email = "this email is not valid !";
     }
+
+
+                <input onChange={handelChange} type="password" id="password" name="password" required />
+                {/* <button type="submit" className={styles.loginButton}>Login</button> Apply CSS module class to button */}
+
+                {/* <input type="password" id="password" name="password" required /> */}
+                <button type="submit" className={styles.loginButton}>Login</button> 
+
+            </form>
+            <h3>Don't have an account? <Link to='/register'>Register</Link></h3>
+        </div>
+        </div>
 
     if (!password) {
       error.password = "Password is required !";
@@ -79,6 +97,7 @@ const Login = () => {
     const value = data.find(
       (user) =>
         user.email == formValues.email && user.password == formValues.password
+
     );
     return value;
   };

@@ -1,3 +1,21 @@
+
+
+ 
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid #461616;
+    border-radius: 10px;
+    background-color: black;
+
+    color: white;
+  } 
+ 
+
+
 .login-container {
   display: flex;
   flex-direction: column;
