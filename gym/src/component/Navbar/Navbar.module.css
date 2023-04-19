@@ -1,48 +1,48 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 20px; */
-    margin: 0;
-    align-items: center;
-    background-color: rgb(9, 9, 9);
-    color: white;
-    height: 80px;
-    font-size: 20px;
-    font-weight: 800;
-     /* position: sticky; */
-    /* top: 0;  */
-    align-items: center;
-    
-
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 800;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 1000;
 }
 
 .logo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .logImage {
-    height: 60px;
-    width: 80px;
-    margin-left: 40px;
+  height: 60px;
+  width: 80px;
+  margin-left: 40px;
 }
 
 .navlist {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    list-style: none;
-
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+}
+.navlist > li > a {
+  color: white;
+  text-decoration: none;
 }
 
-
 .loginBtn {
-    margin-top: 8px;
-    height: 45px;
-    width: 100px;
-    background-color: red;
-    padding: 7px;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    margin-right: 50px;
+  margin-top: 8px;
+  height: 45px;
+  width: 100px;
+  background-color: red;
+  padding: 7px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-right: 50px;
 }
