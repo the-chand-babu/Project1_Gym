@@ -3,6 +3,7 @@ import Styles from "./About.module.css";
 
 export default function About() {
   return (
+
     <div className={Styles.Main}>
       <div className={Styles.AboutUs}>
         <div className={Styles.Video1}>
@@ -30,6 +31,9 @@ export default function About() {
           <button className={Styles.button}>Learn More</button>
         </div>
       </div>
+
+    <div id='about' className={Styles.Main}> 
+
 
       <div className={Styles.AboutUs}>
         <div>

@@ -3,7 +3,7 @@ import style from './Home.module.css'
 
 export default function Home() {
   return (
-    <div className={style.homeContainer}>
+    <div id='home' className={style.homeContainer}>
       <img className={style.imageLink} src='./images/wall1.jpg' alt="homepage image" />
       <div className={style.contentContainer}>
         <h1>"Take Care of Your <span>Body</span></h1>

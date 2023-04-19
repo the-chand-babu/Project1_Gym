@@ -22,3 +22,24 @@
 .contentContainer span{
     color: red;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.imageLink{
+    height: 15rem;
+}
+
+.contentContainer{
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+}
+.contentContainer h1{
+    font-size: 1rem;
+}
+
+
+}

@@ -8,6 +8,7 @@ const showAlert = () =>{
  
 function PricingSection() {
   return (
+
     <>
       <div className={styles.wholePage}>
         <div className={styles.container}>
@@ -87,6 +88,12 @@ function PricingSection() {
       </div>
     </>
   );
+
+    <div id='Pricing'>
+        <h1>thi is pricing</h1>
+    </div>
+  )
+
 }
 
 export default PricingSection;

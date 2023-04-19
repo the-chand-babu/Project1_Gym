@@ -63,7 +63,7 @@ export default function TrainingProgram() {
   ));
 
   return (
-    <div>
+    <div id="Program">
       <h1 className={styles.cardsHeading}>Training Program</h1>
       <Carousel  showDots={true} responsive={responsive}>{data}</Carousel>
     </div>
