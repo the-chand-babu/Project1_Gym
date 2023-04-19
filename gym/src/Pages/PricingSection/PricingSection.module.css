@@ -1,0 +1,110 @@
+.wholePage{
+    background-color: rgba(19, 15, 15, 0.9);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    color: green;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   gap: -2rem;
+   justify-content: left;
+}
+
+.monthlyPlans{
+    color:whitesmoke;
+    background-color: rgba(22, 25, 30, 0.68);
+    height: 20rem;
+    width: 15rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    
+}
+
+/* .monthly-plans :hover{
+    color: black;
+    background-color: rgb(185, 180, 180); */
+    /* /width: 30rem;/ */
+    /* margin: 2rem; */
+    /* border-radius: .5rem;
+    
+    height: 37rem;
+    background-color: white;
+} */
+
+
+ /* .greenarrowbullet li {
+    text-align: left;
+    padding-left: 2rem;
+    background-image: url(../bullet/greenTick.png); 
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-position-x: -.5rem;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    
+ }    */
+
+
+.dailyPlans{
+    background-color: rgba(185, 180, 180);
+    color: black;
+    height: 20rem;
+    width: 15rem;
+    margin: 2rem;
+    border-radius: .5rem;
+}
+
+/* .daily-plans:hover{
+    background-color: rgb(228, 232, 235);
+    height: 20rem ;
+    width: 15rem;
+} */
+
+.btn{
+    height: 2rem;
+    width: 20rem;
+    border: 10px;
+   margin: 5rem;
+   padding:rem;
+   text-align: center;
+    background-color: green;
+}
+
+.btn:hover{
+    height: 2.5rem;
+    width: 27rem;
+}
+.heading{
+    color: white;
+    height: 20rem;
+    width: 18rem;
+    margin: 2rem;
+    text-align: justify;
+    list-style-type: none;
+    
+}
+
+ .heading ul li {
+        padding-left: 2rem;
+        /* /background-image: url(../bullet/rightArrow.png);/ */
+        background-position: 0 0;
+        background-size: 1.6rem 1.6rem;
+        background-repeat: no-repeat;
+
+}
+
+
+@media  screen  (max-width: 800px){
+    .whole-page{
+        
+    }
+ 
+}

@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 // import Footer from "./Pages/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import TrainingProgram from "./Pages/Training Program/TrainingProgram";
+import PricingSection from './Pages/PricingSection/PricingSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <About />
         <TrainingProgram />
+        <PricingSection />
         <TrainerSection />
     </div>
   );
