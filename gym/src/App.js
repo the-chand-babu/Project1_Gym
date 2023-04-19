@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import TrainerSection from './Pages/Trainer/TrainerSection'
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
@@ -16,6 +16,7 @@ function App() {
         <Home />
         <About />
         <TrainingProgram />
+        <TrainerSection />
     </div>
   );
 }
