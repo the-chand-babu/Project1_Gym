@@ -8,6 +8,10 @@ import Footer from "./Pages/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import TrainingProgram from "./Pages/Training Program/TrainingProgram";
 
+import 'react-multi-carousel/lib/styles.css';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +28,8 @@ function App() {
       <TrainingProgram />
       <TrainerSection />
       <PricingSection />
-
+      <Footer />
+    
     </div>
   );
 }

@@ -52,7 +52,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className={styles['footer-something']}>
-          <h3 className={styles['sty']}>services</h3>
+          <h3 className={styles['sty']}>Services</h3>
           <ul>
             <li>Exercise equipment and facilities</li>
             <li>Personal training</li>
