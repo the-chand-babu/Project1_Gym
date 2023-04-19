@@ -1,0 +1,12 @@
+.image{
+    margin: 4px;
+    height: 32vh;
+    width: 47vh;
+    border-radius: 10px;
+}
+.profession{
+    margin-right: 40px;
+}
+.card{
+    height: 50vh;
+}

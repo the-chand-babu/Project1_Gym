@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import TrainerSection from './Pages/Trainer/TrainerSection'
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
@@ -11,13 +11,20 @@ import TrainingProgram from "./Pages/Training Program/TrainingProgram";
 function App() {
   return (
     <div className="App">
+
+        <Navbar />
+        <Home />
+        <About />
+        <TrainingProgram />
+        <TrainerSection />
+
       <Navbar />
       <Home />
       <About /> 
       <TrainingProgram />
       <TrainerSection />
       <PricingSection />
-      <Footer /> 
+
     </div>
   );
 }
