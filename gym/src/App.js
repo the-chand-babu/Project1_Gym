@@ -7,6 +7,7 @@ import PricingSection from "./Pages/PricingSection/PricingSection";
 import Footer from "./Pages/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import TrainingProgram from "./Pages/Training Program/TrainingProgram";
+import PricingSection from './Pages/PricingSection/PricingSection';
 
 import 'react-multi-carousel/lib/styles.css';
 
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <About />
         <TrainingProgram />
+        <PricingSection />
         <TrainerSection />
 
       <Navbar />
