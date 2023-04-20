@@ -24,16 +24,9 @@ function App() {
         <PricingSection />
         <TrainerSection />
         <Footer />
-        {/* <WholeTeam /> */}
+       
 
 
-      {/* <Navbar />
-      <Home />
-      <About /> 
-      <TrainingProgram />
-      <TrainerSection />
-      <PricingSection />
-      <Footer /> */}
     
     </div>
   );

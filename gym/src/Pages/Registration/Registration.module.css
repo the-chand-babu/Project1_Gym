@@ -1,31 +1,36 @@
 .main {
   margin: 0;
+  margin-top: -20px;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  width: 100%;
 }
 
 .form {
   border: none;
-  border-radius: 5px;
-  width: 50%;
+  width: 60%;
   background-color: rgb(5, 5, 12);
   color: rgb(255, 255, 255);
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding: 0;
+
+  padding-top: 5rem;
 }
 
 .Register[type="submit"]:hover {
   background-color: rgb(186, 0, 0);
 }
-.form>input{
+.form > input {
   border-radius: 0.5rem;
   height: 1.5rem;
- 
+  width: 33%;
 }
 
 .Register {
@@ -33,24 +38,25 @@
   color: aliceblue;
   text-align: center;
   border: none;
-  padding: 15px;
+  padding: 15px 2.5rem;
   border-radius: 10px;
 }
 
 .errorMessage {
   color: rgb(250, 0, 0);
+  font-size: 0.7rem;
+  margin-left: -0.2rem;
 }
 
-.sideimg{
-  height: 100vh;
-  width: 35rem;
+.sideimg {
+  height: 43.2rem;
+  width: 33rem;
 }
-.spanlogin{
+.spanlogin {
   color: rgb(255, 0, 0);
   text-decoration: none;
 }
 @media all and (min-width: 200px) and (max-width: 600px) {
-
   .main {
     margin: 0;
     padding: 0;
@@ -70,11 +76,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* height: 100%; */
+  }
+  .form input{
+    width: 13rem;
   }
 
-  .sideimg{
+  .sideimg {
     display: none;
   }
-
-
 }

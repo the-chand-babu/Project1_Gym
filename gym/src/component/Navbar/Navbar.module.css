@@ -8,13 +8,12 @@
   height: 5rem;
   font-size: 1.5rem;
   font-weight: 800;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   align-items: center;
   z-index: 1000;
 }
-
-
 
 .logImage {
   height: 3rem;
@@ -31,14 +30,16 @@
 .navlist > li > a {
   color: white;
   text-decoration: none;
+ 
 }
+
 
 .loginBtn {
   margin-top: 0.4rem;
   height: 2.5rem;
   width: 6.3rem;
   background-color: red;
-  padding: .4rem;
+  padding: 0.4rem;
   color: white;
   border-radius: 10px;
   border: none;
@@ -51,11 +52,12 @@
 
 /* media Queries */
 
-@media screen and (min-width:300px) and (max-width: 844px) {
+@media screen and (max-width: 768px) {
   .navbar {
     width: 100%;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
+   
   }
   .navlist {
     display: none;
@@ -68,54 +70,52 @@
     display: block;
   }
 
-  .closeIcon{
+  .closeIcon {
     display: none;
   }
-  .menu{
+  .menu {
     font-size: 3rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
   }
-  .logImage{
+  .logImage {
     margin-left: 0.1rem;
   }
- 
-  .active .menu{
-        display: none;
+
+  .active .menu {
+    display: none;
   }
-  .active .closeIcon{
+  .active .closeIcon {
     display: block;
     margin-right: 1rem;
     font-size: 2.5rem;
     background-color: transparent;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
   }
 
-  .active .navlist{
+  .active .navlist {
     display: block;
     background-color: rgb(121, 34, 34);
     position: absolute;
-    top:3.5rem;
+    top: 3.5rem;
     width: 81%;
     text-align: center;
     padding: 2rem;
     padding-bottom: 4rem;
-
   }
-  .active .navlist li{
+  .active .navlist li {
     padding: 1rem;
     border-bottom: 1px solid black;
     height: 100%;
     font-size: 1rem;
   }
 
-  .active .loginBtn{
+  .active .loginBtn {
     display: block;
     z-index: 999;
     position: absolute;
     top: 19.9rem;
     right: 7rem;
     font-size: 1rem;
-    
   }
-
 }

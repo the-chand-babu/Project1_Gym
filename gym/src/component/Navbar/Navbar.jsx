@@ -43,7 +43,7 @@ export default function Navbar() {
 
         <button
           onClick={() => {
-            Navigate("/login");
+            Navigate("/Register");
           }}
           className={style.loginBtn}
         >

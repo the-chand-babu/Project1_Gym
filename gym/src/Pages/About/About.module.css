@@ -117,17 +117,20 @@ p {
   text-align: start;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
+@media screen and (min-width:300px) and (max-width: 844px) {
   .Main {
     margin: 0;
     padding: 0;
     display: block;
+    width: 100%;
+   
   }
   .AboutUs {
     display: block;
     margin: 0;
     padding: 0;
     width: 100%;
+  
   }
   .listContainer {
     margin: 0;
