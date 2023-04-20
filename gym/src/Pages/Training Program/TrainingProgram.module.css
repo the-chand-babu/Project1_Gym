@@ -2,3 +2,8 @@
     color:red;
 
 }
+@media all and (min-width:200px) and (max-width:600px){
+    .cardsHeading{
+        text-align: center;
+    }
+}

@@ -1,12 +1,23 @@
 .image{
     margin: 4px;
     height: 32vh;
-    width: 47vh;
+    width: 48vh;
     border-radius: 10px;
 }
-.profession{
-    margin-right: 40px;
-}
+
 .card{
     height: 50vh;
+    text-align: center;
+}
+
+@media all and (min-width:200px) and (max-width:600px){
+
+    .image{
+        margin: 4px;
+        height: 32vh;
+        width: 40vh;
+        border-radius: 10px;
+    }
+      
+    
 }

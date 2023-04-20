@@ -6,8 +6,7 @@ export default function CoachCard(props) {
     <div className={Styles.card}>
       <img
         className={Styles.image}
-        height="450px"
-        width="550px"
+    
         src={props.image}
         alt="image"
       />

@@ -114,12 +114,11 @@ const Register = () => {
   };
 
   return (
-    <div>
-      <h1>{isuserPresent ? "User Already exits please login" : ""}</h1>
-      <h2>{isregister ? "Registration succesfully" : ""}</h2>
-      <h1>Register</h1>
+    <div className={styles.main} >
+    
       <form className={styles.form} onSubmit={handelSubmit}>
-        <label htmlFor="username"> UserName:</label>
+      <h1>Register Here...</h1>
+        <label  htmlFor="username"> UserName:</label>
         <input
           onChange={handelChange}
           value={formValues.username}
@@ -162,14 +161,17 @@ const Register = () => {
         <button type="submit" className={styles.Register}>
           Register
         </button>
-      </form>
-      <h3>
-        Already have an account? <Link to="/login">Login</Link>
+        <h3>
+        Already have an account? <Link className={styles.spanlogin} to="/login">Login</Link>
       </h3>
+      <h2>{isuserPresent ? "User Already exits please login" : ""}</h2>
+      <h2>{isregister ? "Registration succesfully" : ""}</h2>
+      </form>
+      <div>
+      <img className={styles.sideimg} src="https://c4.wallpaperflare.com/wallpaper/208/630/413/bodybuilding-computer-download-wallpaper-preview.jpg" alt="demo"  />
+     </div>
+      
     </div>
-
-     
-
   );
 };
 
