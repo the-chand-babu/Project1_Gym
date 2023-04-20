@@ -59,7 +59,7 @@ export default function TrainingProgram() {
   ];
 
   const data = productData.map((item,index) => (
-    <Card index={index} image={item.image} heading={item.heading} />
+    <Card key={item.id} index={index} image={item.image} heading={item.heading} />
   ));
 
   return (

@@ -13,7 +13,7 @@ export default function Navbar() {
     console.log(ismenuchange);
   };
   return (
-    <div className={`${ismenuchange ? style.active : "no"}`}>
+    <div  className={`${ismenuchange ? style.active : "no"}`}>
       <nav className={style.navbar}>
         <div className={style.logo}>
           <a href="#home">
@@ -34,10 +34,10 @@ export default function Navbar() {
             <a href="#Program">Program</a>
           </li>
           <li>
-            <a href="#training">Training</a>
+            <a href="#Trainer">Trainer</a>
           </li>
           <li>
-            <a href="#Pricing">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
         </ul>
 

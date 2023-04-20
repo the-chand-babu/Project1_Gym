@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes , Route} from 'react-router-dom';
 import Login from "./Pages/Loginpage/Login";
 import Register from "./Pages/Registration/Registration";
+import WholeTeam from './component/WholeTeam/WholeTeam'
 
 
 
@@ -20,6 +21,7 @@ root.render(
   <Route  path='/' element={<App />}/>
 <Route  path='/login' element={<Login />} />
 <Route  path='/Register' element={<Register />} />
+<Route  path='/Team' element={<WholeTeam />} />
 </Routes>
 </BrowserRouter>
    

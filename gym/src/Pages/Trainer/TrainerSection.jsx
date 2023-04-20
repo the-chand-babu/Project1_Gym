@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import CoachCard from "../../component/CoachCard/CoachCard";
 import styles from "./TrainerSection.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function TrainerSection() {
+const navigate = useNavigate()
+
+
+function handleClick(){
+  navigate("/Team")
+}
+
   const productData = [
     {
       id: 1,
@@ -36,23 +44,19 @@ export default function TrainerSection() {
 
   return (
 
-    <div>
+    <div id="Trainer" className={styles.main}>
       <h1 className={styles.cardsHeading}>Meet our Team</h1>
       <div className={styles.mainTrainer}>
         {productData.map((info) => (
           <CoachCard
+          key={info.id}
             image={info.image}
             name={info.name}
             profession={info.profession}
           />
         ))}
       </div>
-      <button className={styles.wholeTeamBtn}>See Whole Team</button>
-
-    <div id='training'>
-       
-       
-       
+      <button onClick={handleClick} className={styles.wholeTeamBtn}>See Whole Team</button> 
 
     </div>
   );

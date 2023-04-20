@@ -51,7 +51,7 @@
 
 /* media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:300px) and (max-width: 844px) {
   .navbar {
     width: 100%;
    display: flex;
@@ -113,7 +113,7 @@
     z-index: 999;
     position: absolute;
     top: 19.9rem;
-    right: 4.6rem;
+    right: 7rem;
     font-size: 1rem;
     
   }
