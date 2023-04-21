@@ -27,12 +27,15 @@
   gap: 4rem;
   list-style: none;
 }
+
 .navlist > li > a {
   color: white;
   text-decoration: none;
- 
 }
 
+/* .navlist li:hover::before{
+content: ;
+} */
 
 .loginBtn {
   margin-top: 0.4rem;
@@ -54,10 +57,12 @@
 
 @media screen and (max-width: 768px) {
   .navbar {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
-   
+    position: fixed;
+    top: 0;
+    z-index: 10000;
   }
   .navlist {
     display: none;
@@ -75,10 +80,10 @@
   }
   .menu {
     font-size: 3rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
   }
   .logImage {
-    margin-left: 0.1rem;
+    margin-left: 0.4rem;
   }
 
   .active .menu {
@@ -86,36 +91,47 @@
   }
   .active .closeIcon {
     display: block;
-    margin-right: 1rem;
-    font-size: 2.5rem;
-    background-color: transparent;
-    margin-top: 0.5rem;
     margin-right: 3rem;
+    font-size: 2.4rem;
+    background-color: transparent;
   }
 
   .active .navlist {
-    display: block;
-    background-color: rgb(121, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(34, 34, 34);
     position: absolute;
-    top: 3.5rem;
-    width: 81%;
+    top: 5rem;
+
     text-align: center;
-    padding: 2rem;
-    padding-bottom: 4rem;
+    right: 0;
+    height: 100vh;
+    box-shadow: 0 40px 60px;
+    padding: 40px 10px 0 0;
   }
   .active .navlist li {
-    padding: 1rem;
-    border-bottom: 1px solid black;
-    height: 100%;
-    font-size: 1rem;
+    width: 30px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-left: 40px;
+    margin-top: 0;
+    margin-right: 10rem;
+    font-size: 1.2rem;
+  }
+  .navlist li a:hover {
+    color: wheat;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
   }
 
   .active .loginBtn {
     display: block;
     z-index: 999;
     position: absolute;
-    top: 19.9rem;
-    right: 7rem;
+    top: 25rem;
+    right: 2.3rem;
     font-size: 1rem;
   }
 }

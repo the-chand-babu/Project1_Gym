@@ -7,6 +7,13 @@
 
 .card{
     height: 50vh;
+    border-radius: 0.5rem;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    height: 53vh;
+    box-shadow: 0.5rem 0.5rem rgb(48, 43, 43);
+    margin: 0.6rem;
+   
 }
 
 .profession{
@@ -21,6 +28,8 @@
         width: 40vh;
         border-radius: 10px;
     }
-      
+    .card{
+        margin-bottom: 1rem;
+    }
     
 }

@@ -17,7 +17,7 @@ export default function About() {
           ></iframe>
         </div>
         <div className={Styles.ContainerHeading}>
-          <h1>About Us</h1>
+          <h1 className={Styles.aboutHeading}>About Us</h1>
           <p>
             Through our 7-day programme we offer you some useful life questions
             to think about. We also offer you some answers on these questions
@@ -33,7 +33,7 @@ export default function About() {
    
         <div className={Styles.AboutUs}>
           <div>
-            <h1>Why Choose Us ?</h1>
+            <h1 className={Styles.aboutHeading}>Why Choose Us ?</h1>
             <ul className={Styles.listContainer}>
               <li>
                 <strong className={Styles.strong}>
@@ -64,7 +64,7 @@ export default function About() {
               height="515"
               src="https://www.youtube.com/embed/Y5RtQ4cawVk"
               title="YouTube video player"
-              frameBorder="0"
+              // frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen={true}
             ></iframe>

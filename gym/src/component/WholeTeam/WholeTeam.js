@@ -69,14 +69,14 @@ const data = [
 const WholeTeam = () => {
     const navigate = useNavigate()
   return (
-    <>
+    <div className={styles.WholeTeamMain}>
     <div className={styles.cardist}>
       {data.map((card, index) => (
         <Trainer key={index} title={card.title} description={card.description} image={card.image} />
       ))}
     </div>
     <button className={styles.cardbtn} onClick={()=>navigate("/#Trainer")} >Go Back Home</button>
-    </>
+    </div>
   );
 };
 

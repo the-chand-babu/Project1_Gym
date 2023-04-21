@@ -122,9 +122,10 @@ p {
     margin: 0;
     padding: 0;
     display: block;
-    width: 100%;
+    /* width: 100%; */
    
   }
+ 
   .AboutUs {
     display: block;
     margin: 0;
@@ -143,13 +144,13 @@ p {
   }
 
   .Video1 {
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
     width: 100%;
   }
   .Video1 iframe {
     width: 100%;
     height: 30rem;
-    margin-left: -1.4rem;
+    /* margin-left: -1.4rem; */
   }
   .Video2 {
     display: block;
@@ -191,4 +192,14 @@ p {
     width: 80%;
     /* border: 1px solid black; */
   }
+  .Main h1 {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 50rem;
+  
+    text-align: start;
+    margin-left: 3rem;
+  }
+
+
 }

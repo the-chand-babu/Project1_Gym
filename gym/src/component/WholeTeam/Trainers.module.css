@@ -2,3 +2,16 @@
     height: 35vh;
     width: 100%;
 }
+
+.cardDescription{
+    margin: 0%;
+    padding: 0%;
+}
+.card{
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    height: 53vh;
+    box-shadow: 0.5rem 0.5rem rgb(48, 43, 43);
+
+}

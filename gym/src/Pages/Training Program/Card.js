@@ -6,8 +6,8 @@ export default function Card(props) {
     <div>
       <img
         className={Styles.image}
-        height="450px"
-        width="550px"
+        // height="450px"
+        // width="550px"
         src={props.image}
         alt="image"
       />

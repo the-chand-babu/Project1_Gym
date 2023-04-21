@@ -9,7 +9,7 @@ import Navbar from "./component/Navbar/Navbar";
 import TrainingProgram from "./Pages/Training Program/TrainingProgram";
 // import PricingSection from './Pages/PricingSection/PricingSection';
 import 'react-multi-carousel/lib/styles.css';
-import WholeTeam from './component/WholeTeam/WholeTeam'
+// import WholeTeam from './component/WholeTeam/WholeTeam'
 
 
 

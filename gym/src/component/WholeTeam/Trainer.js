@@ -6,7 +6,7 @@ const Trainer = ({ title, description, image }) => {
     <div className={style.card}>
       <img className={style.cardImg} src={image} alt={title} />
       <h2>{title}</h2>
-      <p>{description}</p>
+      <p className={style.cardDescription}>{description}</p>
     </div>
   );
 };

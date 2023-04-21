@@ -1,10 +1,14 @@
+.WholeTeamMain{
+  background-color: rgb(14, 14, 14);
+}
 .cardist {
    display: grid;
    grid-template-columns: repeat(4,1fr);
-  gap:8rem;
+  gap:2rem;
   padding: 2rem;
   text-align: center;
   text-align: center;
+
   
   }
    .cardbtn{
@@ -19,6 +23,8 @@
     border: none;
     font-size: 1rem;
     font-weight: 600;
+    margin-top: 1rem;
+
   } 
 
   @media all and (min-width: 200px) and (max-width: 600px){
