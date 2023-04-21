@@ -56,7 +56,10 @@ function handleClick(){
           />
         ))}
       </div>
+      <div className={styles.btnDiv}>
       <button onClick={handleClick} className={styles.wholeTeamBtn}>See Whole Team</button> 
+
+      </div>
 
     </div>
   );

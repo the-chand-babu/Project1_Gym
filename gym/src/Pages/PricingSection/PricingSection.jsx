@@ -96,7 +96,7 @@ function PricingSection() {
                 <br></br>
               </ul>
             </div>
-            <div>
+            <div className={styles.btnDiv}>
               <button className={styles.btn} onClick={showAlert}>
                 Get Started
               </button>
@@ -111,7 +111,7 @@ function PricingSection() {
             </div>
 
             <div className={styles.memberHeading}>
-              <h2>From Punch Pass to Monthly or Annual</h2>
+              <h2 className={styles.membershiph2}>From Punch Pass to Monthly or Annual</h2>
               <p>
                 At gym base ,we offer a wide range of membership with options to
                 suit every budget. Everything from One Day Pass, Punch Pass to

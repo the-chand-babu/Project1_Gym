@@ -8,6 +8,10 @@
 .section {
   text-align: center;
 }
-@media screen and (min-width:300px) and (max-width: 844px) {
-  
-}
+@media screen and (min-width:300px) and (max-width: 768px) {
+    .container{
+      height: 20rem;
+      width: 100%;
+      
+    }
+} 

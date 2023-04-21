@@ -15,10 +15,11 @@
   content: ".";
   color: red;
   display: inline-block;
-  width: 35px;
+  width: 20px;
   font-weight: 900;
-  font-size: 6rem;
+  font-size: 4rem;
   margin-top: -30rem;
+  margin-left: 10px;
 }
 
 .Main {
@@ -117,12 +118,12 @@ p {
   text-align: start;
 }
 
-@media screen and (min-width:300px) and (max-width: 844px) {
+@media screen and (min-width:300px) and (max-width: 768px) {
   .Main {
     margin: 0;
     padding: 0;
     display: block;
-    /* width: 100%; */
+    width: 100%;
    
   }
  
@@ -142,14 +143,15 @@ p {
     margin: 0;
     padding: 0;
   }
-
+  
   .Video1 {
     /* margin-left: 1.5rem; */
     width: 100%;
   }
   .Video1 iframe {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
+    margin-top: 0.2rem;
     /* margin-left: -1.4rem; */
   }
   .Video2 {
@@ -163,7 +165,7 @@ p {
   }
   .Video2 iframe {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
   }
 
   p {
@@ -189,17 +191,15 @@ p {
     line-height: 1.1rem;
   }
   .strong {
-    width: 80%;
-    /* border: 1px solid black; */
+  font-size: 20px;
   }
   .Main h1 {
     color: red;
-    font-size: 2.5rem;
-    font-weight: 50rem;
-  
-    text-align: start;
-    margin-left: 3rem;
+    font-size: 1.9rem;
+    margin-left: 1rem;
   }
-
+ 
+ 
+ 
 
 }

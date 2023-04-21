@@ -17,7 +17,7 @@ const Register = () => {
   );
   const [isuserPresent, setIsuserPresent] = useState(false);
   const [isregister, setIsregister] = useState(false);
-
+  
   const handelChange = (e) => {
     const { name, value } = e.target;
     setFormValues({
@@ -30,6 +30,8 @@ const Register = () => {
     e.preventDefault();
     setIsuserPresent(false);
     setIsregister(false);
+
+    
 
     const error = Validation(formValues);
     if (Object.keys(error).length == 0) {
@@ -62,7 +64,7 @@ const Register = () => {
   };
 
   const Validation = (values) => {
-    //hhhjjj//
+  
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 
@@ -94,7 +96,7 @@ const Register = () => {
     if (!values.confirmPassword) {
       errors.confirmPassword = "confirm Password is required";
     } else if (values.password !== values.confirmPassword) {
-      errors.confirmPassword = "Password does'nt match";
+      errors.confirmPassword = "Password doesn't match";
     }
 
     return errors;
@@ -123,7 +125,6 @@ const Register = () => {
           onChange={handelChange}
           value={formValues.username}
           type="text"
-          id="username"
           name="username"
         />
 
@@ -133,7 +134,7 @@ const Register = () => {
           onChange={handelChange}
           value={formValues.email}
           type="text"
-          id="email"
+       
           name="email"
         />
         <p className={styles.errorMessage}>{error.email}</p>
@@ -143,7 +144,7 @@ const Register = () => {
           onChange={handelChange}
           value={formValues.password}
           type="password"
-          id="password"
+        
           name="password"
         />
         <p className={styles.errorMessage}>{error.password}</p>
@@ -153,7 +154,7 @@ const Register = () => {
           onChange={handelChange}
           value={formValues.confirmPassword}
           type="password"
-          id="confirmPassword"
+         
           name="confirmPassword"
         />
         <p className={styles.errorMessage}>{error.confirmPassword}</p>

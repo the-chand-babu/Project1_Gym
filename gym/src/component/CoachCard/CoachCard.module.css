@@ -1,7 +1,7 @@
 .image{
     margin: 4px;
     height: 32vh;
-    width: 48vh;
+    width: 47vh;
     border-radius: 10px;
 }
 
@@ -14,13 +14,14 @@
     box-shadow: 0.5rem 0.5rem rgb(48, 43, 43);
     margin: 0.6rem;
    
+   
 }
 
 .profession{
     margin: auto;
 }
 
-@media all and (min-width:200px) and (max-width:600px){
+@media screen and (min-width:300px) and (max-width: 768px) {
 
     .image{
         margin: 4px;

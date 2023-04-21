@@ -3,10 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import styles from "./footer.module.css";
 
 const Footer = () => {
-  const handleSocialMediaClick = (url) => {
-    window.location.href = url; // Update to use the passed URL
-  };
-
+  
   return (
     <footer className={styles["footer"]}>
       <div className={styles["footerContainer"]}>
@@ -21,7 +18,7 @@ const Footer = () => {
               href="https://www.facebook.com"
               target=""
               rel=""
-              onClick={() => handleSocialMediaClick("https://www.facebook.com")}
+            
             >
               <FaFacebook />
             </a>
@@ -29,9 +26,7 @@ const Footer = () => {
               href="https://www.instagram.com"
               target=""
               rel=""
-              onClick={() =>
-                handleSocialMediaClick("https://www.instagram.com")
-              }
+             
             >
               <FaInstagram />
             </a>
@@ -39,7 +34,7 @@ const Footer = () => {
               href="https://www.twitter.com"
               target=""
               rel=""
-              onClick={() => handleSocialMediaClick("https://www.twitter.com")}
+           
             >
               <FaTwitter />
             </a>

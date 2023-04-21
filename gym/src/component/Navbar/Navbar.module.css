@@ -55,7 +55,7 @@ content: ;
 
 /* media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:300px) and (max-width: 768px) {
   .navbar {
     width: 100vw;
     display: flex;
@@ -102,7 +102,7 @@ content: ;
     justify-content: start;
     background-color: rgb(34, 34, 34);
     position: absolute;
-    top: 5rem;
+    top: 3.5rem;
 
     text-align: center;
     right: 0;
@@ -131,7 +131,8 @@ content: ;
     z-index: 999;
     position: absolute;
     top: 25rem;
-    right: 2.3rem;
+    right: 3.5rem;
     font-size: 1rem;
+  
   }
 }

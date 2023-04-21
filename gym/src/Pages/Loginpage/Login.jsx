@@ -17,7 +17,7 @@ const Login = () => {
   const [formValues, setFormValues] = useState(obj);
   const Navigate = useNavigate();
 
-  const handelChange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     obj[name] = value;
 
@@ -77,7 +77,7 @@ const Login = () => {
   const FindUser = (data) => {
     const value = data.find(
       (user) =>
-        user.email == formValues.email && user.password == formValues.password
+        user.email === formValues.email && user.password === formValues.password
     );
     return value;
   };
@@ -92,7 +92,7 @@ const Login = () => {
           <label htmlFor="email">Email:</label>
           <input
             value={formValues.email}
-            onChange={handelChange}
+            onChange={handleChange}
             type="text"
             name="email"
           />
@@ -100,7 +100,7 @@ const Login = () => {
           <label htmlFor="password">Password:</label>
           <input
             value={formValues.password}
-            onChange={handelChange}
+            onChange={handleChange}
             type="password"
             name="password"
           />

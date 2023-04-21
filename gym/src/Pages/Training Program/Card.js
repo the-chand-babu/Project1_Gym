@@ -3,11 +3,9 @@ import Styles from "./Card.module.css";
 
 export default function Card(props) {
   return (
-    <div>
+    <div className={Styles.container}>
       <img
         className={Styles.image}
-        // height="450px"
-        // width="550px"
         src={props.image}
         alt="image"
       />

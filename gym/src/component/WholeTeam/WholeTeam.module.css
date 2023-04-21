@@ -1,40 +1,40 @@
-.WholeTeamMain{
-  background-color: rgb(14, 14, 14);
+.WholeTeamMain {
+  background-color: rgb(40, 40, 40);
 }
 .cardist {
-   display: grid;
-   grid-template-columns: repeat(4,1fr);
-  gap:2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
   padding: 2rem;
   text-align: center;
   text-align: center;
+}
+.cardbtn {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+  /* margin-left: 35rem; */
+  width: 9.5rem;
+  margin-bottom: 1.5rem;
+  background-color: rgb(189, 7, 7);
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: white;
+  cursor: pointer;
+}
 
-  
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .cardist {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
   }
-   .cardbtn{
-    padding: 1rem;
-    border-radius: 0.5rem;
-    display: block;
-    margin: auto; 
-     /* margin-left: 35rem; */
-    width: 9.5rem;
-    margin-bottom: 1.5rem;
-    background-color: red;
-    border: none;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 1rem;
-
-  } 
-
-  @media all and (min-width: 200px) and (max-width: 600px){
-
-    .cardist {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-       gap:8rem;
-       padding: 2rem;
-       text-align: center;
-       
-       }
+  .WholeTeamMain {
+    padding-bottom: 0.1rem;
   }
+}
