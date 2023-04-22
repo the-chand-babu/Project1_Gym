@@ -16,13 +16,8 @@ root.render(
   <React.StrictMode>
 
 <BrowserRouter>
+    <App/>
 
-<Routes>
-  <Route  path='/' element={<App />}/>
-<Route  path='/login' element={<Login />} />
-<Route  path='/Register' element={<Register />} />
-<Route  path='/Team' element={<WholeTeam />} />
-</Routes>
 </BrowserRouter>
    
 

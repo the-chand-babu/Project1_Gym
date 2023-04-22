@@ -10,6 +10,10 @@ import TrainingProgram from "./Pages/Training Program/TrainingProgram";
 // import PricingSection from './Pages/PricingSection/PricingSection';
 import 'react-multi-carousel/lib/styles.css';
 import WholeTeam from './component/WholeTeam/WholeTeam'
+import { Route, Routes } from "react-router-dom";
+import Login from "./Pages/Loginpage/Login";
+import Register from "./Pages/Registration/Registration";
+import Landing from "./component/Landing";
 
 
 
@@ -17,14 +21,14 @@ function App() {
   return (
     <div className="App">
 
-        <Navbar />
-        <Home />
-        <About />
-        <TrainingProgram />
-        <PricingSection />
-        <TrainerSection />
-        <Footer />
+      
        
+        <Routes>
+           <Route  path='/' element={<Landing />}/>
+           <Route  path='/login' element={<Login />} />
+            <Route  path='/Register' element={<Register />} />
+            <Route  path='/Team' element={<WholeTeam />} />
+        </Routes>
 
 
     

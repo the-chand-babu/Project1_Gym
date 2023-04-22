@@ -72,7 +72,11 @@ const WholeTeam = () => {
     <>
     <div className={styles.cardist}>
       {data.map((card, index) => (
-        <Trainer key={index} title={card.title} description={card.description} image={card.image} />
+        <Trainer 
+        key={index} 
+        title={card.title} 
+        description={card.description} 
+        image={card.image} />
       ))}
     </div>
     <button className={styles.cardbtn} onClick={()=>navigate("/#Trainer")} >Go Back Home</button>
